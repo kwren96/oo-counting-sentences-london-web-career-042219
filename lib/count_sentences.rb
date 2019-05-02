@@ -23,6 +23,6 @@ class String
   end
 
   def count_sentences
-    string_split.count
+    no_empty.count
   end
 end
