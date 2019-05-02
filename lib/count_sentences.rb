@@ -16,6 +16,7 @@ class String
   
   def string_split
     self.split(/\?!./)
+    [\s,']
   end
 
   def count_sentences
