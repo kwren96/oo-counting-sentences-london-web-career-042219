@@ -17,6 +17,10 @@ class String
   def string_split
     self.split(/[\?!.]/)
   end
+  
+  def no_empty
+    string_split.reject { |value| value.empty? }
+  end
 
   def count_sentences
     string_split.count
